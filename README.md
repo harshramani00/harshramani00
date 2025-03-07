@@ -13,7 +13,7 @@
 
 ## 📫 Let's Connect  
 - 📧 Email: **harshramani76@gmail.com**  
-- 💼 LinkedIn: [linkedin.com/in/ramani-harsh]  
+- 💼 LinkedIn: [[linkedin.com/in/ramani-harsh](https://www.linkedin.com/in/ramani-harsh/)]  
 - 🏗 GitHub Portfolio: **Stay tuned for exciting projects!**  
 
 ---
