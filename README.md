@@ -17,10 +17,11 @@
  
 ---
 
+
 ## 💼 Work Contributions
 
-![Work GitHub Stats](https://github-readme-stats.vercel.app/api?username=harshramani-verveware&show_icons=true&theme=default&title_color=0969da&count_private=true)
+![Work GitHub Stats](https://github-readme-stats.vercel.app/api?username=harshramani-verveware&show_icons=true&theme=tokyonight)
 
-![Work Contribution Streak](https://streak-stats.demolab.com?user=harshramani-verveware&theme=default)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=harshramani-verveware&layout=compact&theme=tokyonight)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=harshramani-verveware&layout=compact)
+![Streak](https://streak-stats.demolab.com?user=harshramani-verveware&theme=tokyonight)
