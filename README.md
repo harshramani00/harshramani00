@@ -16,4 +16,10 @@
 - LinkedIn: [[linkedin.com/in/ramani-harsh](https://www.linkedin.com/in/ramani-harsh/)]  
  
 ---
-✨ _Let's build something awesome together!_ ✨  
+## 💼 Work Contributions
+
+![Work GitHub Stats](https://github-readme-stats.vercel.app/api?username=harshramani-verveware&show_icons=true&theme=default&title_color=0969da)
+
+![Work Contribution Streak](https://streak-stats.demolab.com?user=harshramani-verveware&theme=default)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?harshramani-verveware=WORK_USERNAME&layout=compact)
