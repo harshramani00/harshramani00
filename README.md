@@ -18,10 +18,8 @@
 ---
 
 
-## 💼 Work Contributions
+## 💼 Work GitHub Contributions
 
-![Work GitHub Stats](https://github-readme-stats.vercel.app/api?username=harshramani-verveware&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=harshramani-verveware&layout=compact&theme=tokyonight)
+![Work GitHub Metrics](https://raw.githubusercontent.com/harshramani/harshramani/main/github-metrics.svg)
 
 ![Streak](https://streak-stats.demolab.com?user=harshramani-verveware&theme=tokyonight)
