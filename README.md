@@ -21,6 +21,6 @@
 
 ![Work GitHub Metrics](https://raw.githubusercontent.com/harshramani00/harshramani00/main/github-metrics.svg)
 
-![Work Contribution Graph](https://ghchart.rshah.org/harshramani-verveware)
+![Work Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=harshramani-verveware&theme=react-dark)
 
 ![Streak](https://streak-stats.demolab.com?user=harshramani-verveware&theme=tokyonight)
