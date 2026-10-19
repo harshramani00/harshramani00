@@ -12,14 +12,11 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.PERSONAL_TOKEN }}
 
-      # Fail in seconds (not ~16 min of retries) if a PAT has expired or been revoked.
-      - name: Verify tokens are valid
+      # Fail in seconds (not ~16 min of retries) if the PAT has expired or been revoked.
+      - name: Verify work token is valid
         env:
           WORK_TOKEN: ${{ secrets.WORK_TOKEN }}
-          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
         run: |
           check() {
             login=$(curl -sS -H "Authorization: Bearer $2" https://api.github.com/user | jq -r '.login // empty')
@@ -30,13 +27,12 @@ jobs:
             echo "$1 OK (authenticated as $login)"
           }
           check WORK_TOKEN "$WORK_TOKEN"
-          check PERSONAL_TOKEN "$PERSONAL_TOKEN"
 
       - name: Generate Stats
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.WORK_TOKEN }}
-          committer_token: ${{ secrets.PERSONAL_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           user: harshramani-verveware
           template: classic
           base: header, activity, community, repositories
