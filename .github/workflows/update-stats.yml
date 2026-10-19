@@ -11,9 +11,26 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.PERSONAL_TOKEN }}
+
+      # Fail in seconds (not ~16 min of retries) if a PAT has expired or been revoked.
+      - name: Verify tokens are valid
+        env:
+          WORK_TOKEN: ${{ secrets.WORK_TOKEN }}
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+        run: |
+          check() {
+            login=$(curl -sS -H "Authorization: Bearer $2" https://api.github.com/user | jq -r '.login // empty')
+            if [ -z "$login" ]; then
+              echo "::error::$1 is invalid or expired. Regenerate the PAT and update the repo secret."
+              exit 1
+            fi
+            echo "$1 OK (authenticated as $login)"
+          }
+          check WORK_TOKEN "$WORK_TOKEN"
+          check PERSONAL_TOKEN "$PERSONAL_TOKEN"
 
       - name: Generate Stats
         uses: lowlighter/metrics@latest
