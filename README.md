@@ -17,10 +17,3 @@
  
 ---
 
-## 💼 Work GitHub Contributions
-
-![Work GitHub Metrics](https://raw.githubusercontent.com/harshramani00/harshramani00/main/github-metrics.svg)
-
-![Work Contribution Graph](https://ghchart.rshah.org/harshramani-verveware)
-
-![Streak](https://streak-stats.demolab.com?user=harshramani-verveware&theme=tokyonight)
